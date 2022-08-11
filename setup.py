@@ -25,11 +25,11 @@ INSTALL_REQUIRES = [
     'numpy',
     'scipy',
     'sklearn',
-    'jax==0.2.19',
-    'jaxlib==0.1.70',
     'KDEpy',
     'pyDOE',
-    'numpyro'
+    'numpyro',
+    'jax==0.2.19',
+    'jaxlib==0.1.70'
 ]
 
 setuptools.setup(
